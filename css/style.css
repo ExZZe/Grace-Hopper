@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 1em;
+    font-family: "WDXL Lubrifont SC", sans-serif;
+}
+
+
+h2 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    text-decoration: dashed underline;
+    
+}
+
+h3 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    text-transform: lowercase;
+    text-decoration: dashed underline;
+    
+}
+
+h4 {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul,ol {
+    padding-left: 50px;
+}
+
+
+header {
+    background-color: aquamarine;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: rgb(84, 183, 190);
+    
+}
+
+.about{
+    background-color: blanchedalmond;
+}
+
+.articles{
+    background-color: rgb(207, 191, 194);
+}
+
+p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: justify;
+    letter-spacing: 1.5px;
+}
+
+h2{
+    font-size: 2rem;
+    color: darkgreen;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+#ph1 {
+    border: 10px solid #000;
+    border-radius: 1rem;
+    
+}
+
+#ph2 {
+    border: 10px solid #000;
+    border-radius: 1rem;
+    
+}
+
+h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+
+h4{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1.3rem;
+    text-align: justify;
+}
+
+img {
+    
+    margin: 0 auto;
+}
+
+dl {
+  font-size: 1.2rem;
+}
+
+dt {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+dd {
+  font-size: 1.1em;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: darkgrey;
+}
+
+a:focus {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: palevioletred;
+} 
+
+header a {
+    color: darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+section {
+    padding: 20px;
+}
+
+header a:hover,
+header a:focus,
+header a:active {
+    text-decoration: underline;
+}
+
+h2::after {
+    content: "new";
+    font-size: 10px;
+    color: purple;
+    margin: 10px;
+}
+
+h2::before {
+    content: "\F67E";
+    font-family: "bootstrap-icons";
+    margin-right: 10px;
+    color: aquamarine;
+}
+
+form {
+    width: 260px;
+    border-radius: 30px;
+    padding: 35px;
+    background-color: blanchedalmond;
+    margin: 20px auto;
+}
+
+input {
+    border: 1px solid darkblue;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=submit] {
+    background-color: bisque;
+    color: darkgray;
+}
+
+input[type=submit]:hover {
+    background-color: blue;
+}
+
+input[type=checkbox] {
+    accent-color: red;
+}
+
+textarea, select {
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 5px;
+    color: blueviolet;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.information li:nth-child(even) {
+    background-color: steelblue;
+}
+
+.information li:nth-child(odd) {
+    background-color: silver;
+}
+
+
+.information li:nth-child(3)::after {
+    content: " Важно!";
+    color: red;
+    background-color: black;
+    border: 1px solid red;
+    margin-left: 8px;
+    padding: 2px 5px;
+}
+
+p::first-line {
+    letter-spacing: 3px;
+}
+
+p:lang(en){
+    font-size:30px;
+}
+
+
+#intro p {
+    color: blanchedalmond;
+    background-color: darkgreen;
+}
+
+#icono li {
+    border: 10px solid #000;
+    border-radius: 1rem;
+    width: 75px;
+}
+
+.phty + p {
+    margin-top: 20px;
+}
+
+.phty + h3 {
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse
+}
+
+
+table th:nth-child(odd) {
+    background-color: steelblue;
+}
+
+table td:nth-child(odd) {
+    background-color: steelblue;
+}
+
+
+tr th:first-child {
+  background-color: #d9f2d9;
+  text-decoration: underline;
+}
+
+tr td:first-child {
+  background-color: #d9f2d9;
+  text-decoration: underline;
+}
+
+
+table tr:last-child {
+  background-color: #f2d9d9;
+  text-decoration: overline;
+}
